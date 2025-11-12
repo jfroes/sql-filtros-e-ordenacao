@@ -1,3 +1,3 @@
--- 07. Liste produtos em ordem decrescente de preço.
+-- 11. Liste clientes sem telefone (IS NULL).
 
-SELECT * FROM products ORDER BY preco DESC;
+SELECT * FROM clients WHERE telefone IS NULL;
