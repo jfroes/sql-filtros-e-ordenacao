@@ -1,3 +1,3 @@
--- 07. Liste produtos em ordem decrescente de preço.
+-- 09. Mostre produtos cujo nome termina com “X”.
 
-SELECT * FROM products ORDER BY preco DESC;
+SELECT * FROM products WHERE LOWER(nome) LIKE LOWER('%x');
